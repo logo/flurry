@@ -1,26 +1,2 @@
-
-/**
- * Flurry
- */
-
-.logo[data-logo="Flurry"] {
-  width: 4.197802198em;
-  /* (11.46/2.73) * (1) - 0 */
-}
-
-.logo[data-logo="Flurry"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0;
-}
-
-.logo[data-logo="Flurry"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
-
-.logo[data-logo="Flurry"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Flurry"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
